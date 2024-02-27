@@ -1,0 +1,39 @@
+/* Animaçao do titulo */
+ 
+@keyframes HeaderH1-moverParaDireita {
+    0% {
+        opacity: 0;
+        transform: translateX(-75px);
+    }
+    70% {
+        transform: translateX(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+ 
+@keyframes HeaderH4-moverEsquerda {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    50% {
+        transform: translateX(-5px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+ 
+@keyframes Button-moverCima {
+    0% {
+        opacity: 0;
+        transform: translateY(300px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
